@@ -1,0 +1,9 @@
+Programming Language
+It uses call stack method and is single-threaded
+It is synchronous 
+Allows us to give commands to browser
+Google V8 Engine: Manages Memory, Interprets JS
+
+What is an object:
+    Object is an entity: It has property and types
+    Object is an instance of a class
