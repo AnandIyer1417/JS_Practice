@@ -1,0 +1,24 @@
+Programming Language
+It uses call stack method and is single-threaded
+It is synchronous
+Allows us to give commands to browser
+Google V8 Engine: Manages Memory, Interprets JS
+
+What is an object:
+Object is an entity: It has property and types
+Object is an instance of a class
+
+Code:
+
+console.log("Hello Everyone, this is my first piece of JS Code");
+
+console.log({name: "Anvesha"})
+
+console.log(true)
+console.log(false)
+
+console.log(false,234233, 'string', {name: "Anand"})
+
+console.warn("This is a warning")
+
+console.error("This is an error")
