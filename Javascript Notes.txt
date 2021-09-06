@@ -65,6 +65,26 @@ OPERATORS:
         && (Both True) 
         || (Either true)
 
+    TRUTH TABLE:
+        console.log("TRUTH TABLE: AND")
 
-    
+        console.log("false && false",false && false)
+        console.log("true && true",true && true)
+        console.log("true && false",true && false)
+        console.log("false && true",false && false)
+
+        console.log("TRUTH TABLE: OR")
+
+        console.log("false || false",false || false)
+        console.log("true || true",true || true)
+        console.log("true || false",true || false)
+
+    Conditional Statements:
+        if, else
+        Syntax-
+            if(condition){
+            }
+            else {
+                
+            }
 
