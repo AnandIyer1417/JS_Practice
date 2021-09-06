@@ -88,3 +88,32 @@ OPERATORS:
                 
             }
 
+
+<----------------------------------------------------------------------->
+
+DOM =>
+    Document Object Model (it is an API)
+    Represents HTML in tree-like fashion with nodes
+    Allows us to manipulate any object in render tree
+    
+    Node: Each node is an object i.e. each element in render tree  
+
+    API: Bridge between File and Application
+         Needed to interact with elements of render tree
+
+    <script defer src="./app.js"></script>
+        Use 'defer' to ensure DOM runs only after tree has loaded
+
+    const element = document.getElementById('ID NAME')
+
+    const element = document.getElementsByClassName('CLASS NAME')
+
+    const element = document.getElementsByTagName('TAG NAME')
+
+    const element = document.querySelector('div#selectme')
+    
+    const element = document.querySelectorAll('div#selectme')
+
+<----------------------------------------------------------------------->
+
+

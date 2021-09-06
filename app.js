@@ -1,17 +1,9 @@
-const a = '99'
+// const element = document.getElementById('selectme')
 
-if(typeof a === 'number'){
-    if(a % 2 === 0){
-        console.log("Number is even")
-    }
-    else if(a===0){
-        console.log("Neither Even nor Odd")
-    }
-    else {
-        console.log("Number is Odd")
-    }
-}
-else {
-    console.error("Not a number")
-}
+// const element = document.getElementsByClassName('heading')
 
+// const element = document.getElementsByTagName('div')
+
+const element = document.querySelector('h4.heading')
+
+console.log(element)
