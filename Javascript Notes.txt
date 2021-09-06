@@ -26,12 +26,14 @@ console.warn("This is a warning")
 
 console.error("This is an error")
 
+"const" is used to assign values to variables that cannot be changed
+
 
 DATA TYPES:
 
 1. Primtive: Name, Number, String etc.
 
-var/let to declare variable
+**var/let to declare variable**
 
 2. Non-Primtive
 
@@ -45,5 +47,14 @@ FUNCTION EXAMPLE:
 
 
 OPERATORS:
+    Operand: Upon which operation happens
 
-    
+    Arthimetic Operators-
+        +, -, *, /, %, **(power)
+
+    Assignment Operators-
+        +=, -=, *=, /=, **=
+        ==, -- (Alternatively)
+
+
+
