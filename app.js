@@ -1,11 +1,22 @@
-const a = 2
-const b = 15
+const a = 21
+const b = 7
+const c = 21
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a**b)
-console.log(b%a)
+console.log('a > b', a > b)
+console.log('a < b', a < b)
+console.log('a == b', a == b)
+console.log('a == c', a == c)
+
+console.log("<------------------->")
+
+const d = '11'
+const e = 11
+
+console.log(e == d)
+console.log(e === d)
+
+
+
+
 
 

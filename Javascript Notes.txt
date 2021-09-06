@@ -56,5 +56,10 @@ OPERATORS:
         +=, -=, *=, /=, **=
         ==, -- (Alternatively)
 
-
+    Comparision Operators-
+        >, <, ==, >=, <=
+        === checks type as well while == is a value comparision
+        && (Both True) 
+        || (Either true)
+    
 
