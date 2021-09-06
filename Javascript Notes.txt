@@ -1,6 +1,7 @@
 Programming Language
 It uses call stack method and is single-threaded
-It is synchronous
+It is synchronous- it is a blocking task
+      asynchronous- it is a non-blocking task  
 Allows us to give commands to browser
 Google V8 Engine: Manages Memory, Interprets JS
 
@@ -8,7 +9,9 @@ What is an object:
 Object is an entity: It has property and types
 Object is an instance of a class
 
-Code:
+Methods are a subset of functions and are a block of code that run for an object
+
+CODE:
 
 console.log("Hello Everyone, this is my first piece of JS Code");
 
@@ -22,3 +25,25 @@ console.log(false,234233, 'string', {name: "Anand"})
 console.warn("This is a warning")
 
 console.error("This is an error")
+
+
+DATA TYPES:
+
+1. Primtive: Name, Number, String etc.
+
+var/let to declare variable
+
+2. Non-Primtive
+
+Arrays
+
+FUNCTION EXAMPLE:
+
+    function name(str) {
+    console.log(`Hi ${(str)}`)
+}
+
+
+OPERATORS:
+
+    
