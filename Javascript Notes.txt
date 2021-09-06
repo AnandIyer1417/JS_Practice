@@ -111,9 +111,30 @@ DOM =>
     const element = document.getElementsByTagName('TAG NAME')
 
     const element = document.querySelector('div#selectme')
-    
+
     const element = document.querySelectorAll('div#selectme')
 
+    To edit content of a particular Query - 
+        element.innerHTML = "This is from JS" 
+
+    To style elements in HTML:
+        element.style.color = "crimson"
+        element.style.fontSize = "40px"
+
+    To add/remove classes to an element:
+        // console.log(element.classList)
+        // element.classList.add('five')
+        // console.log(element.classList)
+        // element.classList.remove('one')
+        // console.log(element.classList)
+
+    To implement Dark Mode:
+
+        console.log(body.classList.toggle('dark'))
+
+    To check if class is present:
+        const value = element.classList.contains('three')
+        console.log(value)
 <----------------------------------------------------------------------->
 
 

@@ -1,9 +1,15 @@
-// const element = document.getElementById('selectme')
+const element = document.querySelector('#selectme')
+// element.innerHTML = "This is from JS"
 
-// const element = document.getElementsByClassName('heading')
+// element.style.color = "crimson"
+// element.style.fontSize = "40px"
 
-// const element = document.getElementsByTagName('div')
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
 
-const element = document.querySelector('h4.heading')
+const value = element.classList.contains('three')
 
-console.log(element)
+console.log(value)
