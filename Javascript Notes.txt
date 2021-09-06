@@ -59,7 +59,12 @@ OPERATORS:
     Comparision Operators-
         >, <, ==, >=, <=
         === checks type as well while == is a value comparision
+        
+    Logical Operators-
+        ! (Not)  eg: != (Not equal to)
         && (Both True) 
         || (Either true)
+
+
     
 
