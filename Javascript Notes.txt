@@ -135,6 +135,15 @@ DOM =>
     To check if class is present:
         const value = element.classList.contains('three')
         console.log(value)
+
+    Event Listeners:
+        Change how console reacts to interaction with page
+        1. button.addEventListener('click',()=> {
+                console.log('You clicked me?')
+            })
+        2. button.addEventListener('click',()=> {
+                element.classList.toggle('crimson')
+            })
 <----------------------------------------------------------------------->
 
 

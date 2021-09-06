@@ -1,15 +1,7 @@
-const element = document.querySelector('#selectme')
-// element.innerHTML = "This is from JS"
+const button = document.querySelector('button')
+const element = document.querySelector('body')
 
-// element.style.color = "crimson"
-// element.style.fontSize = "40px"
+button.addEventListener('click',()=> {
+    element.classList.toggle('dark')
+})
 
-// console.log(element.classList)
-// element.classList.add('five')
-// console.log(element.classList)
-// element.classList.remove('one')
-// console.log(element.classList)
-
-const value = element.classList.contains('three')
-
-console.log(value)
