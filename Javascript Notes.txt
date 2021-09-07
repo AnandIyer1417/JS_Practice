@@ -46,4 +46,9 @@ FUNCTION EXAMPLE:
 
 OPERATORS:
 
+FUNCTIONS:
+    It can have multiple parameters
+    You can set their default values
+    Any variable inside a function is local to it
+
     
