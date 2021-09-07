@@ -69,4 +69,5 @@ ECMA SCRIPT:
 
         scissor.addEventListener('click',handler) 
 
-
+ARRAYS:
+    .splice(Number of elements, index) : Remove elements from Array

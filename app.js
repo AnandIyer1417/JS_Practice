@@ -1,43 +1,14 @@
-const rock = document.querySelector('#rock')
-const paper = document.querySelector('#paper')
-const scissor = document.querySelector('#scissor')
-const board = document.querySelector("#board")
+const balls = document.querySelectorAll('.ball')
+const body = document.querySelector('body')
 
-const handler = (e) => {
-    const action = e.target.id 
-    // if(action==='rock'){
-    //     board.innerHTML = "Rock Crushes Scissors"
-    // }
-    // else if(action === 'paper'){
-    //     board.innerHTML = "Paper Traps Rock"
-    // }
-    // else if(action === 'scissor'){
-    //     board.innerHTML = "Scissors Cuts Paper"
-    // }
-    // else{
-    //     board.innerHTML = "Click Something"
-    // }
+const arr = [1,2,3,4,5]
 
-    switch(action)
-    {
-        case "rock":
-            board.innerHTML = "Rock Crushes Scissors"
-            break
-        case "paper":
-            board.innerHTML = "Paper Traps Rock"
-            break
-        case "scissor":
-            board.innerHTML = "Scissors Cuts Paper"
-            break
-        default:
-            board.innerHTML = "Click Something"
-    }
-    
+while(arr.length < 15){
+    arr.push("iteration")
 }
 
-rock.addEventListener('click', handler) 
+console.log(arr)
 
-paper.addEventListener('click',handler) 
-
-scissor.addEventListener('click',handler) 
-
+arr.forEach((element, iteration) => {
+    console.log(element, iteration)
+})
