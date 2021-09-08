@@ -1,16 +1,34 @@
-const balls = document.querySelectorAll('.ball')
-// const balls = document.getElementsByClassName('ball')
-const body = document.querySelector('body')
+console.log("Merged Class 1 ES6")
 
+const arr = [1,2,3,4]
 
-balls.forEach((ball, iteration) => {
-    const value = iteration * 50
-    ball.style = `transform:translateY(${value}px)`
-})
+console.log(arr[2])
 
-let age = 19
-let Name = "Sakshi"
+var [one, two, three, four, five] = [1,2,3,4]
 
-console.log('Your age is ' + age)
-console.log(`Hi ${Name} Your age is ${age}`)
+console.log(three)
+console.log(five)
 
+function getScores() {
+    return [90,100]
+}
+
+let [x,y,z] = getScores();
+console.log(x)
+console.log(y)
+console.log(z)
+
+const obj = {
+    fname: "Anand",
+    lname: "Iyer",
+    age: 20,
+    mname: "C"
+}
+
+let {age, fname, lname, mname=""} = obj
+
+console.log(age)
+console.log(fname)
+
+console.log(lname)
+console.log(mname)
