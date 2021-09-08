@@ -147,3 +147,49 @@ DOM =>
 <----------------------------------------------------------------------->
 
 
+FUNCTIONS:
+    It can have multiple parameters
+    You can set their default values
+    Any variable inside a function is local to it
+
+ECMA SCRIPT:
+    It is what JS is based on
+
+    Example:
+        const rock = document.querySelector('#rock')
+        const paper = document.querySelector('#paper')
+        const scissor = document.querySelector('#scissor')
+
+        const handler = (action) => {
+            console.log(action.target.id)
+        }
+
+        rock.addEventListener('click', handler) 
+
+        paper.addEventListener('click',handler) 
+
+        scissor.addEventListener('click',handler) 
+
+    ARRAYS:
+        .splice(Number of elements, index) : Remove elements from Array
+    
+    ES6 Destructuring:
+        var [one, two, three, four, five] = [1,2,3,4]
+        console.log(three)
+        console.log(five)
+
+
+        const obj = {
+            name: "Anand Iyer",
+            email: "ai6774@srmist.edu.in",
+            age: 20
+        }
+        Reference Method #1:
+        console.log(obj.email)
+
+        Reference Method #2:
+        let {name, email, age} = obj
+
+        console.log(email) 
+
+            Note: If variable name is same then order will not matter when using let
