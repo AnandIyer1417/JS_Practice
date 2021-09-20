@@ -174,7 +174,8 @@ ECMA SCRIPT:
         .splice(Number of elements, index) : Remove elements from Array
     
     ES6 Destructuring:
-        var [one, two, three, four, five] = [1,2,3,4]
+        const arr = [1,2,3,4]
+        var [one, two, three, four, five] = arr
         console.log(three)
         console.log(five)
 
@@ -193,3 +194,11 @@ ECMA SCRIPT:
         console.log(email) 
 
             Note: If variable name is same then order will not matter when using let
+
+        Adding using ES6:
+            let add = (x,y) => console.log(x+y)
+            add(10,20)
+
+
+
+        
