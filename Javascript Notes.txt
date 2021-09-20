@@ -184,7 +184,7 @@ ECMA SCRIPT:
             name: "Anand Iyer",
             email: "ai6774@srmist.edu.in",
             age: 20
-        }
+        };
         Reference Method #1:
         console.log(obj.email)
 
