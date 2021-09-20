@@ -1,43 +1,49 @@
-const rock = document.querySelector('#rock')
-const paper = document.querySelector('#paper')
-const scissor = document.querySelector('#scissor')
-const board = document.querySelector("#board")
+console.log("Merged Class 1 ES6")
+const arr = [1,2,3,4]
+console.log(arr[2])
+var [one, two, three, four, five] = [1,2,3,4]
+console.log(three)
+console.log(five)
+function getScores() {
+    return [90,100]
+}
+let [x,y,z] = getScores();
+console.log(x)
+console.log(y)
+console.log(z)
 
-const handler = (e) => {
-    const action = e.target.id 
-    // if(action==='rock'){
-    //     board.innerHTML = "Rock Crushes Scissors"
-    // }
-    // else if(action === 'paper'){
-    //     board.innerHTML = "Paper Traps Rock"
-    // }
-    // else if(action === 'scissor'){
-    //     board.innerHTML = "Scissors Cuts Paper"
-    // }
-    // else{
-    //     board.innerHTML = "Click Something"
-    // }
 
-    switch(action)
-    {
-        case "rock":
-            board.innerHTML = "Rock Crushes Scissors"
-            break
-        case "paper":
-            board.innerHTML = "Paper Traps Rock"
-            break
-        case "scissor":
-            board.innerHTML = "Scissors Cuts Paper"
-            break
-        default:
-            board.innerHTML = "Click Something"
-    }
-    
+const person = {
+    fname: "Anand",
+    mname: "C",
+    lname: "Iyer",
+    age: 20,
 }
 
-rock.addEventListener('click', handler) 
+let {age, fname, lname, mname=""} = obj
 
-paper.addEventListener('click',handler) 
+let {age, fname, lname, mname=""} = person
+console.log(age)
+console.log(fname)
 
-scissor.addEventListener('click',handler) 
+console.log(lname)
+console.log(mname)
 
+let add = (x,y) => console.log(x+y)
+add(10,20)
+
+
+const counter = {
+    count: 1,
+    manipulate: function() {
+        return ++(this.count)
+    },
+    key: this.count
+}
+
+console.log(counter)
+console.log(counter.manipulate())
+console.log(counter)
+console.log(counter.manipulate())
+console.log(counter)
+console.log(counter.manipulate())
