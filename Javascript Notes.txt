@@ -247,3 +247,57 @@ ECMA SCRIPT:
                         return e
                 })
                 console.log(newfilterArr)
+        
+    PROMISES:
+        It is an object that returns a value that we hope to recieve in the future but not immedietely
+
+        Three States of Promise: Pending, Fullfilled and Rejected
+
+        A promise begins in Pending State
+
+        Example:
+            let concert = true;
+            let attendConcert = new Promise(function(resolve, reject)
+            {
+                setTimeout(() => {
+                    if(concert){
+                        resolve("BOB ATTENDED THE CONCERT")
+                    }
+                    else{
+                        reject("BOB FAILED TO ATTEND THE CONCERT")
+                    }
+                }, 2000);
+            }
+            );
+
+            console.log(attendConcert) 
+        
+        Try and Catch:
+            Then method is used to execute a condition when promise is executed
+            
+            Example:
+                attendConcert.then((data) => console.log(data));
+
+                attendConcert.catch((error) => console.log(error))
+
+                attendConcert.then((data) => console.log(data)).catch((error)
+                => console.log(error));
+
+        Async and Await:
+
+            Example:
+                let afunc = async() =>  
+                {
+                    try
+                    {
+                        let result = await attendConcert;
+                        console.log(result);
+                        return result;
+                    }
+                    catch(e)
+                    {
+                        console.log(e);
+                    }
+                }
+
+                afunc()
