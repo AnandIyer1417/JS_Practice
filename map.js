@@ -12,8 +12,15 @@ console.log(
     })
 )
 
-let newArr = ranks.map((e, index) => {
+let newmapArr = ranks.map((e, index) => {
     if(e%2===0)
         return e
 })
-console.log(newArr)
+console.log(newmapArr)
+
+let newfilterArr = ranks.filter((e, index) => {
+    if(e%2===0)
+        return e
+})
+console.log(newfilterArr)
+

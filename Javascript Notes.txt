@@ -223,6 +223,7 @@ ECMA SCRIPT:
                 ** next() is not a keyword
 
         MAP:
+            It is an array method
             Example:
                 let ranks = [1,2,3]
                 const newArr = ranks.map((e)=>e+1)
@@ -235,3 +236,14 @@ ECMA SCRIPT:
             In ranks.map((element, index) => {return(index)})
 
             .foreach cannot return values it can only print items
+
+        FILTER:
+            Used to run a function on every element in array and return array with elements that follow condition specified in function
+
+            Example:
+                let ranks = [1,2,3,4]
+                let newfilterArr = ranks.filter((e, index) => {
+                    if(e%2===0)
+                        return e
+                })
+                console.log(newfilterArr)
